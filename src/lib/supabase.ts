@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = window.location.origin + '/api/supabase';
+const supabaseUrl = 'https://18oracle.vercel.app/api/supabase';
 const supabaseAnonKey = 'sb_publishable_m_hDTKTRyZj2JEcqgOciPQ_o4W1NdAo';
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
