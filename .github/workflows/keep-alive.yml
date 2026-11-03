@@ -1,8 +1,8 @@
 name: Keep Supabase Alive
 on:
   schedule:
-    - cron: '0 12 */3 * *' # 每 3 天中午 12 点运行一次
-  workflow_dispatch: # 允许你随时手动点击运行
+    - cron: '0 12 */3 * *' 
+  workflow_dispatch: 
 
 jobs:
   ping:
@@ -10,9 +10,9 @@ jobs:
     steps:
       - name: Ping Supabase
         run: |
-          curl -X POST "${{ secrets.SUPABASE_URL }}/rest/v1/wake_up_supabase" \
-          -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
-          -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
+          curl -X POST "https://lhpbkbfiicwevrpoyqa.supabase.co/rest/v1/wake_up_supabase" \
+          -H "apikey: sb_publishable_m_hDTKTRyZJ2JEccgQciP0_q4WlNdAo" \
+          -H "Authorization: Bearer sb_publishable_m_hDTKTRyZJ2JEccgQciP0_q4WlNdAo" \
           -H "Content-Type: application/json" \
-          -H "Prefer: return=minimal" \
+          -H "Prefer: return:minimal" \
           -d '{"value": "alive"}'
