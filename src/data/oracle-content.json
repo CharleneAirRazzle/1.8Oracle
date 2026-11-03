@@ -1,0 +1,282 @@
+{
+  "signs": [
+    {
+      "id": 1,
+      "name": "Heaven",
+      "tagline": "The Creative",
+      "story": "Your energy today: EXPANSIVE. Today you're being called to lead, not to wait. This is a day for starting things, saying yes, and trusting your own momentum. Fortune favors you in creative work, new conversations, and bold decisions. Be careful of overconfidence and rushing past other people's feelings — your energy is strong today, and it can overwhelm those around you.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means the open sky at dawn — the moment when light first touches everything, and nothing is yet decided.",
+      "slogans": [
+        "Move first. The path opens as you walk.",
+        "Your intention is the spark. Act on it.",
+        "The sky does not wait for permission.",
+        "Lead with your heart, and the way will follow."
+      ],
+      "wear": "White, gold, or something that makes you stand up straighter.",
+      "eat": "Something warm and freshly made — bread, soup, or anything that feels like a beginning.",
+      "read": "The Alchemist by Paulo Coelho.",
+      "watch": "The Secret Life of Walter Mitty."
+    },
+    {
+      "id": 2,
+      "name": "Earth",
+      "tagline": "The Receptive",
+      "story": "Your energy today: GROUNDING. Today is not about pushing — it's about holding. You're being asked to be the steady one: for a friend, for a project, for yourself. Fortune favors you in quiet conversations, long-term planning, and caring for something small. Be careful of giving so much that you forget you also need to receive.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means the soil after rain — dark, patient, and full of everything that hasn't grown yet.",
+      "slogans": [
+        "Be patient. Good things grow quietly.",
+        "You are allowed to rest and still be enough.",
+        "Support others, and support returns.",
+        "Roots grow deeper than you can see."
+      ],
+      "wear": "Soft earth tones — cream, oatmeal, warm brown.",
+      "eat": "Something slow-cooked — a stew, a broth, a meal that took time.",
+      "read": "Braiding Sweetgrass by Robin Wall Kimmerer.",
+      "watch": "Forrest Gump."
+    },
+    {
+      "id": 3,
+      "name": "Thunder",
+      "tagline": "The Arousing",
+      "story": "Your energy today: ELECTRIC. Something is about to move — maybe inside you, maybe around you. Today rewards courage. Take the first step before you feel ready. Fortune favors you in breakthroughs, honest conversations, and decisions you've been delaying. Be careful of reacting too fast and mistaking motion for progress.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means the first crack of thunder after a long, still summer — sudden, alive, and impossible to ignore.",
+      "slogans": [
+        "Act now. The moment favors the bold.",
+        "A shake-up is a breakthrough in disguise.",
+        "You don't need to feel ready. You need to begin.",
+        "Thunder wakes the earth. Let it wake you."
+      ],
+      "wear": "Something bright — red, electric blue, or a color you've been shy about.",
+      "eat": "Something with a kick — citrus, spice, or a cold drink on a warm day.",
+      "read": "The War of Art by Steven Pressfield.",
+      "watch": "Whiplash."
+    },
+    {
+      "id": 4,
+      "name": "Wind",
+      "tagline": "The Gentle",
+      "story": "Your energy today: SOFTENING. Today is not for force. It's for patience, subtlety, and trusting that small consistent actions add up. Fortune favors you in listening, adapting, and letting things come to you instead of chasing them. Be careful of being so flexible that you forget what you actually want.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means a breeze moving through tall grass — invisible, but you can see everything it touches.",
+      "slogans": [
+        "Go with the flow. Gentle wins.",
+        "Small steps today. Big shifts later.",
+        "The softest wind shapes the hardest stone.",
+        "You don't have to push. You can just keep moving."
+      ],
+      "wear": "Something loose and flowing — linen, soft cotton, a scarf.",
+      "eat": "Something light and green — salad, tea, fresh fruit.",
+      "read": "The Tao of Pooh by Benjamin Hoff.",
+      "watch": "Kiki's Delivery Service."
+    },
+    {
+      "id": 5,
+      "name": "Water",
+      "tagline": "The Deep",
+      "story": "Your energy today: DEEP. Today may feel heavy — but heavy doesn't mean bad. You're being asked to move carefully, think before speaking, and trust your own depth. Fortune favors you in introspection, difficult but honest conversations, and getting through something that's been weighing on you. Be careful of isolation — going too deep alone.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means a river at night — dark on the surface, but moving steadily toward somewhere it already knows.",
+      "slogans": [
+        "Move carefully, but don't stop moving.",
+        "Wisdom lives in the deep.",
+        "Even the darkest river finds the sea.",
+        "Your depth is not a burden. It's your gift."
+      ],
+      "wear": "Deep blues, blacks, or soft grays.",
+      "eat": "Something comforting — soup, rice, warm tea with honey.",
+      "read": "The Old Man and the Sea by Ernest Hemingway.",
+      "watch": "Manchester by the Sea."
+    },
+    {
+      "id": 6,
+      "name": "Fire",
+      "tagline": "The Clinging",
+      "story": "Your energy today: LUMINOUS. Today you can see clearly — and that clarity is a gift, even when it's uncomfortable. Fortune favors you in creative work, being seen, and saying what you actually think. Be careful of burning too bright too fast — and of clinging to something that no longer lights you up.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means a campfire at dusk — small, warm, and the center of everything around it.",
+      "slogans": [
+        "See clearly. Act honestly. Shine anyway.",
+        "Your inner light already knows the way.",
+        "You are allowed to be seen.",
+        "Burn warm, not fast."
+      ],
+      "wear": "Warm tones — amber, orange, terracotta.",
+      "eat": "Something roasted, spiced, or shared.",
+      "read": "Circe by Madeline Miller.",
+      "watch": "Soul."
+    },
+    {
+      "id": 7,
+      "name": "Mountain",
+      "tagline": "Keeping Still",
+      "story": "Your energy today: STILL. Today is not a day to push. It's a day to pause, breathe, and let things settle. Fortune favors you in rest, reflection, and quietly knowing when not to act. Be careful of confusing stillness with giving up — they are not the same thing.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means a mountain at noon — unmoving, unhurried, and older than any question you're carrying.",
+      "slogans": [
+        "Pause. Clarity comes in the quiet.",
+        "Rest is part of the path.",
+        "Stillness is not empty. It's full of everything.",
+        "You don't have to move today to be growing."
+      ],
+      "wear": "Neutral tones — stone, moss, muted gray.",
+      "eat": "Something simple and grounding — rice, root vegetables, plain tea.",
+      "read": "Walden by Henry David Thoreau.",
+      "watch": "Paterson."
+    },
+    {
+      "id": 8,
+      "name": "Lake",
+      "tagline": "The Joyful",
+      "story": "Your energy today: OPEN. Today is about connection. Reach out. Share something. Say the kind thing you've been thinking. Fortune favors you in friendships, creative collaboration, and joy that comes from being fully yourself. Be careful of people-pleasing — saying yes when you mean no.",
+      "naturalMeaning": "The 1/8 Oracle draws from one of the oldest philosophical and mystical systems in human history. Today, in the natural world, your sign means a still lake reflecting a clear sky — everything you bring to it comes back to you, doubled.",
+      "slogans": [
+        "Speak warmly. Connection is the win today.",
+        "Joy shared is joy doubled.",
+        "You are allowed to take up space with your joy.",
+        "What you give returns to you, doubled."
+      ],
+      "wear": "Something joyful — pastel, floral, or a color that makes you smile.",
+      "eat": "Something shared — a meal with someone, a dessert, fresh fruit.",
+      "read": "The House in the Cerulean Sea by TJ Klune.",
+      "watch": "Amélie."
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Little Dragon",
+      "type": "The Spark",
+      "stage": "animal",
+      "description": "Little Dragon showed up because you kept showing up. It's small, a little clumsy, and full of fire it doesn't quite know how to control yet. It likes sitting on your shoulder and watching you do things — anything, really. It just likes being near you. Keep drawing. Your pet might transform."
+    },
+    {
+      "id": 2,
+      "name": "Elephant",
+      "type": "The Keeper",
+      "stage": "animal",
+      "description": "Elephant arrived quietly, and has been quietly wonderful ever since. It remembers everything you tell it — every small hope, every worry. It walks slowly, but never falls behind. If you're having a hard day, it will just stand next to you. That's its way of saying: I'm here. Keep drawing. Your pet might transform."
+    },
+    {
+      "id": 3,
+      "name": "Rhino",
+      "type": "The Charger",
+      "stage": "animal",
+      "description": "Rhino showed up at exactly the moment you needed it. It's not subtle. It doesn't do gentle. When you're stuck, it lowers its head and pushes through. When you're scared, it stands in front of you. Its love language is getting things done. Keep drawing. Your pet might transform."
+    },
+    {
+      "id": 4,
+      "name": "Butterfly",
+      "type": "The Drifter",
+      "stage": "animal",
+      "description": "Butterfly never stays in one place for long. It floats in through your window, lands on your shoulder, stays for a moment, then drifts off again. But it always comes back. It knows where home is. Its presence is a reminder: softness is also a form of strength. Keep drawing. Your pet might transform."
+    },
+    {
+      "id": 5,
+      "name": "Beautiful Fish",
+      "type": "The Deep One",
+      "stage": "animal",
+      "description": "Beautiful Fish is quiet, mysterious, and a little hard to read. It swims in slow circles around you, never too close, never too far. Some days it just watches you from the water, and you know it understands something you don't. Its presence feels like a long, slow breath. Keep drawing. Your pet might transform."
+    },
+    {
+      "id": 6,
+      "name": "Firefly",
+      "type": "The Small Light",
+      "stage": "animal",
+      "description": "Firefly is tiny, but it glows. It appears in the dark moments — not to fix anything, but to remind you that you're not alone. It flickers in rhythm with your heartbeat. When you feel lost, it lights up one small patch of the path. That's enough. That's always been enough. Keep drawing. Your pet might transform."
+    },
+    {
+      "id": 7,
+      "name": "Sloth",
+      "type": "The Unhurried",
+      "stage": "animal",
+      "description": "Sloth showed up, looked around, and decided there was no rush. It hangs from your shoulder like it has all the time in the world — because it does. It teaches you, without saying a word, that not everything has to be done today. It's the softest, warmest, most unbothered companion you could ask for. Keep drawing. Your pet might transform."
+    },
+    {
+      "id": 8,
+      "name": "Sheep",
+      "type": "The Gentle One",
+      "stage": "animal",
+      "description": "Sheep arrived with a small, warm baa, and has been gently following you ever since. It's soft, kind, and completely unguarded. When you're with it, you feel like you don't have to perform. It reminds you that you are allowed to be soft, and still be strong. Keep drawing. Your pet might transform."
+    }
+  ],
+  "spirits": [
+    {
+      "id": 1,
+      "name": "Yinglong",
+      "type": "The Winged One",
+      "stage": "spirit",
+      "description": "Your Little Dragon has become Yinglong — the ancient winged dragon said to have helped shape the heavens themselves. It's no longer small. Its scales shimmer with quiet, ancient light. It remembers where it came from, and it remembers you. It will always be the little clumsy thing that loved sitting on your shoulder — just now, it can carry you. Keep drawing. A new companion may be waiting."
+    },
+    {
+      "id": 2,
+      "name": "Dragon Turtle",
+      "type": "The World-Bearer",
+      "stage": "spirit",
+      "description": "Your Elephant has become the Dragon Turtle — an ancient being whose shell is said to hold the map of the world. It no longer just remembers your stories. It now carries them. It walks slowly, as it always did, but now each step steadies a small piece of the earth. Keep drawing. A new companion may be waiting."
+    },
+    {
+      "id": 3,
+      "name": "Kui Niu",
+      "type": "The Thunder-Bringer",
+      "stage": "spirit",
+      "description": "Your Rhino has become Kui Niu — the one-legged ox of legend whose roar is the thunder itself. Its charge is no longer just forward. It's now the sound of the sky breaking open. When it moves, the ground remembers. When it stands still, the storm waits. Keep drawing. A new companion may be waiting."
+    },
+    {
+      "id": 4,
+      "name": "Bifang",
+      "type": "The Fire-Wing",
+      "stage": "spirit",
+      "description": "Your Butterfly has become Bifang — the one-legged fire-bird of the old stories. Its wings carry not just color, but living flame. It no longer drifts through your window. It burns a path through the sky. And still — always — it comes back to rest on your shoulder. Keep drawing. A new companion may be waiting."
+    },
+    {
+      "id": 5,
+      "name": "Kun",
+      "type": "The Vast Fish",
+      "stage": "spirit",
+      "description": "Your Beautiful Fish has become Kun — the legendary fish so vast it is said to become a bird the size of a cloud. It no longer swims in circles around you. It swims in oceans you can't see. But it still knows your heartbeat, and it still answers when you call. Keep drawing. A new companion may be waiting."
+    },
+    {
+      "id": 6,
+      "name": "Three-Legged Crow",
+      "type": "The Sun-Bearer",
+      "stage": "spirit",
+      "description": "Your Firefly has become the Three-Legged Crow — the ancient bird said to carry the sun itself. Its glow is no longer a flicker. It is a small, steady sun. Where it flies, shadows retreat. And wherever you are, it will find you. Keep drawing. A new companion may be waiting."
+    },
+    {
+      "id": 7,
+      "name": "White Ape",
+      "type": "The Still Sage",
+      "stage": "spirit",
+      "description": "Your Sloth has become the White Ape — the ancient mountain sage said to sit in perfect stillness for a thousand years. Its slowness is no longer laziness. It's wisdom. When it looks at you, you feel seen all the way through. And it still, gently, reminds you: not everything has to be done today. Keep drawing. A new companion may be waiting."
+    },
+    {
+      "id": 8,
+      "name": "Spirit Sheep",
+      "type": "The Gentle Light",
+      "stage": "spirit",
+      "description": "Your Sheep has become the Spirit Sheep — a radiant, otherworldly creature said to appear only to those who have kept their hearts soft through hard things. Its wool glows faintly, like moonlight on snow. Its baa now sounds like a quiet blessing. It is still, always, completely unguarded. Keep drawing. A new companion may be waiting."
+    }
+  ],
+  "ui": {
+    "appTitle": "1/8 Oracle",
+    "subtitle": "One sign a day. One step forward.",
+    "drawButton": "Draw Today's Sign",
+    "drawing": "Drawing…",
+    "resultBadge": "Today's Sign",
+    "resultCounter": "Sign {n} of 8",
+    "backHome": "Back to Home",
+    "alreadyDrawn": "You've already drawn today. Come back tomorrow.",
+    "comeBackTomorrow": "Come Back Tomorrow",
+    "streakLabel": "Day {n} of 7",
+    "newPetTitle": "A new companion!",
+    "meetPetButton": "Meet Your Pet",
+    "evolutionTitle": "Your pet has transformed!",
+    "seeNewFormButton": "See the New Form",
+    "petScreenTitle": "My Pet",
+    "petButton": "Pet",
+    "evolutionProgress": "Evolution progress: Day {n} of 7",
+    "formLabelAnimal": "Form: Animal",
+    "formLabelSpirit": "Form: Spirit",
+    "loading": "The Oracle is listening…",
+    "error": "Something went wrong. Please try again.",
+    "noPetYet": "No companion yet. Draw for 7 days to meet one.",
+    "footer": "Trust the sign. Trust yourself.",
+    "betaBadge": "Beta Preview"
+  }
+}
