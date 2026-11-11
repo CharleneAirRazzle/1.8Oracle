@@ -1,6 +1,5 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '@/context/AuthContext';
 import { SIGNS, getRandomSlogan, type Sign } from '@/data/signs';
 import { UI, fmt } from '@/data/ui-strings';
 import { X } from 'lucide-react';
@@ -45,29 +44,26 @@ function drawLocally(): DrawData {
 }
 
 export default function DrawPage() {
-  const { profile } = useAuth();
   const navigate = useNavigate();
   const [phase, setPhase] = useState<'drawing' | 'result'>('drawing');
   const [data, setData] = useState<DrawData | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const hasFetched = useRef(false);
 
   useEffect(() => {
-    if (!profile || hasFetched.current) return;
-    hasFetched.current = true;
+    // 修复后的核心逻辑：直接开启定时器，不再用 hasFetched 拦截
     const timer = setTimeout(() => {
       try {
         const result = drawLocally();
         setData(result);
         setPhase('result');
-      } catch {
+      } catch (err) {
+        console.error(err);
         setError(UI.error);
       }
     }, 1800);
-    return () => clearTimeout(timer);
-  }, [profile]);
 
-  if (!profile) return null;
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="min-h-screen bg-cozy-night flex flex-col items-center justify-center p-6 relative overflow-hidden">

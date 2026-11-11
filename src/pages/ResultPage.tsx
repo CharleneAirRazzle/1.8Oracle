@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '@/context/AuthContext';
 import { type Sign } from '@/data/signs';
 import { UI, fmt } from '@/data/ui-strings';
 import { ArrowLeft, Share2, Shirt, Utensils, BookOpen, Clapperboard } from 'lucide-react';
@@ -39,19 +38,16 @@ function readStoredReading(): StoredReading | null {
 }
 
 export default function ResultPage() {
-  const { profile } = useAuth();
   const navigate = useNavigate();
   const [reading, setReading] = useState<StoredReading | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!profile) return;
+    // 直接读取本地数据，不再依赖登录状态
     const stored = readStoredReading();
     setReading(stored);
     setLoading(false);
-  }, [profile]);
-
-  if (!profile) return null;
+  }, []);
 
   return (
     <div className="min-h-screen bg-cozy-night relative overflow-hidden">
