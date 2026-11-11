@@ -37,8 +37,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setConnectionError(null);
 
     if (!data) {
-      // Profile doesn't exist yet — the user signed up but the trigger
-      // (if any) hasn't created it. We'll create it lazily here.
       const username = (user.user_metadata?.username as string) || 'Seeker';
       const { data: created, error: createErr } = await supabase
         .from('users')
@@ -67,8 +65,19 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let mounted = true;
 
+    // 【核心修复】强制超时放行机制
+    // 如果 3 秒后还卡在 loading 状态（说明网络被拦截了），直接强行结束 loading
+    const forceLoadTimer = setTimeout(() => {
+      if (mounted) {
+        console.log('Supabase 请求超时，强制放行渲染');
+        setLoading(false);
+      }
+    }, 3000);
+
     supabase.auth.getSession().then(({ data: { session: s }, error }) => {
       if (!mounted) return;
+      clearTimeout(forceLoadTimer); // 如果请求成功回来，清除定时器
+      
       if (error) {
         setConnectionError('Connection failed. Please check your network and try again.');
         setLoading(false);
@@ -82,6 +91,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
     }).catch(() => {
       if (!mounted) return;
+      clearTimeout(forceLoadTimer); // 如果报错，清除定时器
       setConnectionError('Connection failed. Please check your network and try again.');
       setLoading(false);
     });
@@ -102,6 +112,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     return () => {
       mounted = false;
+      clearTimeout(forceLoadTimer); // 组件卸载时清理定时器
       sub.subscription.unsubscribe();
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
